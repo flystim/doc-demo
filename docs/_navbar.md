@@ -1,3 +1,3 @@
-- 🌐 Translations
-  - [English](/en/)
-  - [中文 🇹🇼](/zh-tw/)
+- 🌐 **${.nav-lang}Translations**
+  - [:uk: English](/en/)
+  - [:cn: 中文](/zh-tw/)

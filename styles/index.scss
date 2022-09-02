@@ -2,10 +2,6 @@
 
 .sidebar {
   padding: 0 0 0 0;
-
-  &-nav {
-    // padding-left: 20px;
-  }
 }
 .app-name {
   padding-top: 10px;
@@ -22,6 +18,10 @@
       .anchor span {
         color: #fff;
       }
+    }
+
+    h2 a {
+      color: #{$primary-color};
     }
   }
   &-logo {
@@ -52,4 +52,14 @@ strong.api-method {
   border-radius: 0px;
   margin-right: 10px;
   color: #fff;
+}
+
+strong.nav-lang {
+  color: var(--theme-color, grey);
+}
+
+.app-nav {
+  .nav-bage {
+    color: #fff;
+  }
 }
